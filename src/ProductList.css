@@ -188,6 +188,24 @@ body {
 
     
 }
+
+.cart-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
